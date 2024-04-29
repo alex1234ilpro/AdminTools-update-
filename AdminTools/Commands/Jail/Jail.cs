@@ -7,8 +7,6 @@ using System.Linq;
 
 namespace AdminTools.Commands.Jail
 {
-    [CommandHandler(typeof(RemoteAdminCommandHandler))]
-    [CommandHandler(typeof(GameConsoleCommandHandler))]
     public class Jail : ParentCommand
     {
         public Jail() => LoadGeneratedCommands();
